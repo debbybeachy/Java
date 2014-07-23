@@ -1,0 +1,132 @@
+
+#wrapper{
+   width: 940px;
+   margin: 0 auto 32px;
+}
+
+header{
+   position:relative;
+   top:32px;
+   height:120px;
+   background: url(../images/logo.png) no-repeat 80px 30px,  url(../images/topBanner.jpg) no-repeat;
+}
+
+
+/*Top Nav*/
+nav{
+   position: relative;
+   left: 500px;
+   top: 65px;
+}
+
+ul li{
+   float: left;
+   margin-right: 5px;
+   padding: 5px;
+}
+
+li a{
+   color:rgb(204, 153, 51);
+   text-decoration: none;
+   font-weight: bold;
+   border: none;
+}
+
+a:hover{
+   color: rgb(102, 153, 204);
+}
+
+.current{
+   background-color: rgb(102, 153, 204);
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+}
+
+.current:hover{
+   color: white;
+}
+
+h1{
+   font-size: 32px;
+   color: rgb(204, 153, 51);
+}
+
+h3, h4{
+   color: rgb(204, 153, 51);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+   width: 600px;
+   padding:20px;
+   float:left;
+   border-right: 1px solid rgba(102, 153, 204, 0.3);
+   margin-top: 32px;
+   margin-right: 20px;
+}
+
+img{
+   float: right;
+   margin-left:10px;
+}
+
+aside{
+   width: 260px;
+   float: left;
+   padding: 20px;
+}
+
+#toolBox{
+   margin-top: 85px; 
+}  /*why couldn't I put this code on my aside selector?*/
+
+
+/*aside links*/
+a{
+   color: rgb(102, 153, 204);
+}
+
+a:hover{
+   font-weight: bold;
+}
+
+footer{
+   height: 64px;
+   margin-bottom: 32px;
+   background-color: rgba(204, 153, 51, 0.5);
+   clear: both
+}
+
+footer h6{
+   float: right;
+   margin-top: 30px;
+   margin-right: 32px;
+}
+
+h6 span{
+   color: rgb(102, 102, 102);
+   font-style: italic;
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

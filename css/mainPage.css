@@ -1,0 +1,107 @@
+
+#wrapper{
+   width: 940px;
+   margin: 0 auto 32px;
+   background-color: white;
+}
+
+header{
+   position:relative;
+   top:32px;
+   height:120px;
+   background: url(../images/logo.png) no-repeat 80px 30px,  url(../images/topBanner.jpg) no-repeat;
+}
+
+
+/*Top Nav*/
+nav{
+   position: relative;
+   left: 500px;
+   top: 65px;
+}
+
+ul li{
+   float: left;
+   margin-right: 5px;
+   padding: 5px;
+}
+
+li a{
+   color:rgb(204, 153, 51);
+   text-decoration: none;
+   font-weight: bold;
+   border: none;
+}
+
+a:hover{
+   color: rgb(102, 153, 204);
+}
+
+.current{
+   background-color: rgb(102, 153, 204);
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+}
+
+.current:hover{
+   color: white;
+}
+
+.largeBanner{
+   margin-bottom: 32px;
+}
+
+p{
+      width: 300px;
+}
+
+img{
+   float: left;
+   margin-top: 3px;
+   padding-right: 10px;
+}
+
+.debby{
+   float: left;
+   margin-left: 10px;
+   margin-bottom: 32px;  /*note....why can't I put margin-bottom: 32px; on my "p " selector ? */
+}
+
+.specialty{
+   float: left;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.month{
+   margin-right: 10px;
+   float: right;
+}
+
+a{
+   color: rgb(102, 153, 204);
+}
+
+a:hover{
+   font-weight: bold;
+}
+
+footer{
+   height: 64px;
+   margin-bottom: 32px;
+   background-color: rgba(204, 153, 51, 0.5);
+   clear: both
+}
+
+footer h6{
+   float: right;
+   margin-top: 30px;
+   margin-right: 32px;
+}
+
+h6 span{
+   color: rgb(102, 102, 102);
+   font-style: italic;
+}
+
